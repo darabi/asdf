@@ -25,3 +25,6 @@
 [submodule "ext/lisp-invocation"]
 	path = ext/lisp-invocation
 	url = git://common-lisp.net/projects/qitab/lisp-invocation.git
+[submodule "ext/cl-ppcre"]
+	path = ext/cl-ppcre
+	url = https://github.com/edicl/cl-ppcre
