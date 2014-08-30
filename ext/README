@@ -1,0 +1,42 @@
+ASDF Build Dependencies
+=======================
+
+This directory contains the build depencies of asdf as git subtrees:
+
+- alexandria
+- closer-closer-mop
+- cl-ppcre
+- fare-mop
+- fare-quasiquote
+- fare-utils
+- inferior-shell
+- lisp-invocation
+- named-readtables
+- optima
+
+git subtree
+-----------
+
+git subtree is a contribution to git which is part of the contrib
+packages of git starting with version 1.7.11.
+
+Quoting from its man page [1]:
+
+Subtrees allow subprojects to be included within a subdirectory
+of the main project, optionally including the subproject's
+entire history.
+
+For example, you could include the source code for a library
+as a subdirectory of your application.
+
+Subtrees are not to be confused with submodules, which are meant for
+the same task. Unlike submodules, subtrees do not need any special
+constructions (like .gitmodule files or gitlinks) be present in
+your repository, and do not force end-users of your
+repository to do anything special or to understand how subtrees
+work. A subtree is just a subdirectory that can be
+committed to, branched, and merged along with your project in
+any way you want.
+
+[1] https://github.com/git/git/blob/master/contrib/subtree/git-subtree.txt
+
