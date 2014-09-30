@@ -1,4 +1,4 @@
-cl-asdf (2:3.1.3-1) unstable; urgency=low
+cl-asdf (2:3.1.3.9-1) unstable; urgency=low
 
   Bug fix release:
   * A bug in 3.1.2 caused errors when hot-upgrading from 3.1.2 ASDF.
