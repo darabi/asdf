@@ -331,6 +331,7 @@
            ;;(--git-upstream-branch= ,version) ;; if the changelog says 3.1.2, looks at that tag
            --git-tag --git-retag
            ;; --git-no-pristine-tar
+           --git-no-submodules
            --git-force-create
            --git-ignore-branch)
          :directory (pn) :show t)))
