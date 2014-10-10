@@ -13,7 +13,7 @@ cl-asdf (2:3.1.4-1) unstable; urgency=low
   * Fixes to tests and documentation.
   * Many minor bugfixes.
 
- -- François-René Rideau <fare@tunes.org>  Thu, 09 Oct 2014 21:18:21 -0400
+ -- Kambiz Darabi <darabi@m-creations.net>  Fri, 10 Oct 2014 23:55:21 +0200
 
 cl-asdf (2:3.1.3-1) unstable; urgency=low
 
