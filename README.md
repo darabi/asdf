@@ -136,7 +136,12 @@ How do I navigate this source directory?
       Most of the logic is in the asdf-tools system
 
 * `tools/`
-    * Some scripts to help ASDF users
+    * `asdf-tools`, a system to build, test and release ASDF. It includes:
+        * `asdf-tools` -- a shell script to run it as a shell command.
+        * `load-asdf.lisp` -- how to load ASDF in a self-contained project
+        * `asdf-tools.asd` -- system definition for asdf-tools
+        * `*.lisp` -- the source code for asdf-tools
+    * also a couple scripts to help ASDF users:
         * `load-asdf.lisp` -- a build script to load, configure and use ASDF
         * `install-asdf.lisp` -- replace and update an implementation's ASDF
         * `cl-source-registry-cache.lisp` -- update a cache for the source-registry
