@@ -163,12 +163,13 @@
     (run `(git-buildpackage
            ;; --git-ignore-new ;; for testing purpose
            (--git-debian-branch= ,release)
-           (--git-upstream-tag="%(version)s")
+           ;; (--git-upstream-tag="%(version)s")
            ;;--git-upstream-tree=tag ;; if the changelog says 3.1.2, looks at that tag
            ;;(--git-upstream-branch= ,version) ;; if the changelog says 3.1.2, looks at that tag
            --git-tag --git-retag
            ;; --git-no-pristine-tar
            --git-force-create
+           --git-submodule
            --git-ignore-branch)
          :directory (pn) :show t)))
 
